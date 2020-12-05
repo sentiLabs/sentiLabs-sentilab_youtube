@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SampleSenti</string>
+    <string name="title_activity_xml_news">XmlNewsActivity</string>
+</resources>

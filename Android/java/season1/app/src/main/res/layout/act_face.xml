@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/RelativeLayout_main"
+   >
+    <!-- 1. 얼굴 사진을 보여주고
+     2. 얼굴 위에다가 멍든 사진
+     3. 볼때기 - 고양이 수염 -->
+    <ImageView
+        android:id="@+id/ImageView_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/sentilab"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
